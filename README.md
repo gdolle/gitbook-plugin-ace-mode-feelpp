@@ -12,6 +12,7 @@ Specific css class are created and have to be customized.
 Note that default ace theme does not color these class.
 
 | class | description |
+| --- | --- |
 | ace_feelpp | class for all feel++ keywords |
 | ace_feelvf | class for feelvf keywords |
 | ace_feeldiscr | class for feeldiscr keywords |
