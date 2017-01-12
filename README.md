@@ -1,10 +1,22 @@
 # Feel++ Ace Mode
 
-Feel++ syntax for **gitbook ace plugin** ([Github](https://github.com/ymcatar/gitbook-plugin-ace))
+[Feel++](https://github.com/feelpp/feelpp) syntax for **gitbook ace plugin** ([Github](https://github.com/ymcatar/gitbook-plugin-ace))
 extended from ace c++ syntax.
 
-Feel++ for _Finite Element Embedded language using C++_.
+[Feel++](https://github.com/feelpp/feelpp) stands for _Finite Element Embedded language using C++_.
 
+# Usage
+
+Just install this package.
+Specific css class are created and have to be customized.
+Note that default ace theme does not color these class.
+
+| class | description |
+| ace_feelpp | class for all feel++ keywords |
+| ace_feelvf | class for feelvf keywords |
+| ace_feeldiscr | class for feeldiscr keywords |
+
+NB: For to [Feel++](https://github.com/feelpp/feelpp) for keywords meaning.
 
 # Install note
 
