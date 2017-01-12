@@ -1,0 +1,72 @@
+= Test codes
+
+== Test default code
+
+Test a markdown style code (highlight.js)
+
+``` cpp
+#include <feel/feel.hpp>
+
+int main( int argc, char* argv[] )
+{
+    using namespace Feel;
+
+    Environment env( _argc=argc, _argv=argv,
+            _about=about( _name="env",
+                _author="Feel++ Consortium",
+                _email="feelpp-devel@feelpp.org") );
+    std::cout << "proc " << Environment::rank()
+        <<" of "<< Environment::numberOfProcessors()
+        << std::endl;
+
+}
+```
+
+
+== Ace code
+
+Test an ace code with theme monokai.
+
+++++
+{%ace check="false" theme="monokai"%}
+
+#include <feel/feel.hpp>
+
+int main( int argc, char* argv[] )
+{
+    using namespace Feel;
+}
+
+{%endace%}
+++++ 
+
+== Ace code feel++ language
+
+Test an ace code with feelpp language set.
+
+++++
+{%ace lang="feelpp"%}
+
+#include <feel/feel.hpp>
+
+int main( int argc, char* argv[] )
+{
+    using namespace Feel;
+
+    Environment env( _argc=argc, _argv=argv,
+            _about=about( _name="env",
+                _author="Feel++ Consortium",
+                _email="feelpp-devel@feelpp.org") );
+    std::cout << "proc " << Environment::rank()
+        <<" of "<< Environment::numberOfProcessors()
+        << std::endl;
+
+    auto Vh = Pch<1> ( mesh );
+    auto a = form2( Xh );
+    a = integrate( _range=elements( mesh ), _expr=cst(1.0) );
+}
+
+{%endace%}
+++++ 
+
+
