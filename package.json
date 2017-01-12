@@ -1,0 +1,18 @@
+{
+  "name" : "gitbook-plugin-ace-mode-feelpp",
+  "description": "feel++ syntax color for gitbook plugin ace",
+  "version" : "0.0.1",
+  "main":"index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gdolle/gitbook-plugin-ace-mode-feelpp"
+  },
+  "author": "Guillaume Dollé <dev@gdolle.com>",
+  "engines": {
+      "gitbook": ">1.x.x"
+  },
+  "dependencies": {
+    "fs-extra": "^1.3.2",  
+    "ace": "^0.3.2"
+  }
+}
