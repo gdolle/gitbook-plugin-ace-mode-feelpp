@@ -12,8 +12,8 @@
       "gitbook": ">1.x.x"
   },
   "dependencies": {
-    "fs-extra": "^1.3.2",  
-    "ace": "^0.3.2"
+    "fs-extra": ">=1.3.2",  
+    "ace": ">=0.3.2"
   },
   "licenses": [{
       "type": "BSD New",
