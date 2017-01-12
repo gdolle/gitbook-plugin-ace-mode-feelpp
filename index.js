@@ -32,10 +32,10 @@ fs.stat( acePluginPath, (err, stats) => {
     });
 });
 
-//module.exports = {
-//    //"feelppace":
-//    //    {
-//    //        "mode" : "mode-feelpp.js",
-//    //        "snippets" : "snippets/feelpp.js"
-//    //    }
-//};
+module.exports = {
+     website: {
+             css: [
+                     "ace-mode-feelpp.css"
+             ]
+        }
+};
