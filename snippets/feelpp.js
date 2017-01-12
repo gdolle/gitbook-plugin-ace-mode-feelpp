@@ -1,7 +1,1 @@
-define("ace/snippets/feelpp",["require","exports","module"], function(require, exports, module) {
-"use strict";
-
-exports.snippetText =undefined;
-exports.scope = "feelpp";
-
-});
+define("ace/snippets/feelpp",["require","exports","module"],function(e,t,n){"use strict";t.snippetText=undefined,t.scope="feelpp"})
