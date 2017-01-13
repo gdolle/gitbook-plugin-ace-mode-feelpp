@@ -6,5 +6,10 @@ module.exports = {
         "include-codeblock",
         "ace",
         "ace-mode-feelpp"
-    ]
+    ],
+    "pluginsConfig": {
+        "include-codeblock" : {
+            "template" : "ace"
+        }
+    }
 };
