@@ -1,7 +1,7 @@
 {
   "name" : "gitbook-plugin-ace-mode-feelpp",
   "description": "feel++ syntax color for gitbook plugin ace",
-  "version" : "0.0.4",
+  "version" : "0.1.0",
   "main":"index.js",
   "repository": {
     "type": "git",
