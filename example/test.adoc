@@ -69,4 +69,6 @@ int main( int argc, char* argv[] )
 {%endace%}
 ++++ 
 
+Code imported via include-codeblock
 
+[import](test.cpp)
