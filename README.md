@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gdolle/gitbook-plugin-ace-mode-feelpp.svg?branch=master)](https://travis-ci.org/gdolle/gitbook-plugin-ace-mode-feelpp)
+
 # Feel++ Ace Mode
 
 [Feel++](https://github.com/feelpp/feelpp) syntax for **gitbook ace plugin** ([Github](https://github.com/ymcatar/gitbook-plugin-ace))
