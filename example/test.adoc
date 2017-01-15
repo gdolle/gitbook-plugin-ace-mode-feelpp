@@ -71,4 +71,12 @@ int main( int argc, char* argv[] )
 
 Code imported via include-codeblock
 
-[import](test.cpp)
+[import,edit="true"](test.cpp)
+
+Snippet code imported via include-codeblock
+
+[import:"vf",theme:"monokai"](test.cpp)
+
+Import form2 snippet
+
+[import:"form2",theme:"monokai"](test.cpp)

@@ -9,7 +9,8 @@ module.exports = {
     ],
     "pluginsConfig": {
         "include-codeblock" : {
-            "template" : "ace"
+            "template" : "ace",
+            "unindent": "true"
         }
     }
 };

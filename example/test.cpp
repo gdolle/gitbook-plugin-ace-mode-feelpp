@@ -12,7 +12,11 @@ int main( int argc, char* argv[] )
         <<" of "<< Environment::numberOfProcessors()
         << std::endl;
 
+    //! [vf]
     auto Vh = Pch<1> ( mesh );
+    //! [form2]
     auto a = form2( Xh );
+    //! [form2]
     a = integrate( _range=elements( mesh ), _expr=cst(1.0) );
+    //! [vf]
 }
