@@ -33,9 +33,10 @@ fs.stat( acePluginPath, (err, stats) => {
 });
 
 module.exports = {
-     website: {
-             css: [
-                     "./ace-mode-feelpp.css"
-             ]
-        }
+    website: {
+        assets: "./assets",
+        css: [
+            "ace-mode-feelpp.css"
+        ]
+    }
 };

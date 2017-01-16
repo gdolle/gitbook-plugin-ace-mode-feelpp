@@ -10,7 +10,11 @@ module.exports = {
     "pluginsConfig": {
         "include-codeblock" : {
             "template" : "ace",
-            "unindent": "true"
+            "unindent": "true",
+            "theme": "chrome"
+        },
+        "ace" : {
+            "theme":"chrome"
         }
     }
 };
